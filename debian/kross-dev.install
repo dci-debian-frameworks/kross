@@ -1,0 +1,4 @@
+usr/include/KF5/
+usr/lib/*/libKF5KrossCore.so
+usr/lib/*/libKF5KrossUi.so
+usr/lib/*/cmake/KF5Kross/
