@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5KrossCore.so.4 libkf5krosscore4 #MINVER#
+libKF5KrossCore.so.5 libkf5krosscore5 #MINVER#
  _ZN5Kross10krossdebugERK7QString@Base 4.96.0
  _ZN5Kross11Interpreter11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN5Kross11Interpreter11qt_metacastEPKc@Base 4.96.0

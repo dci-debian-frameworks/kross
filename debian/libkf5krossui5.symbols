@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5KrossUi.so.4 libkf5krossui4 #MINVER#
+libKF5KrossUi.so.5 libkf5krossui5 #MINVER#
  _ZN5Kross15ScriptingPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN5Kross15ScriptingPlugin11qt_metacastEPKc@Base 4.96.0
  _ZN5Kross15ScriptingPlugin14setDOMDocumentERK12QDomDocumentb@Base 4.96.0
