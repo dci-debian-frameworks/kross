@@ -37,8 +37,8 @@ Description: development files for kross
 Package: kross
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: libkf5krosscore4 (= ${binary:Version}),
- libkf5krossui4 (= ${binary:Version}),
+Depends: libkf5krosscore5 (= ${binary:Version}),
+ libkf5krossui5 (= ${binary:Version}),
  ${shlibs:Depends}, ${misc:Depends}
 Description: Multi-language application scripting.
  Modular scripting framework that eases embedding
@@ -46,7 +46,7 @@ Description: Multi-language application scripting.
  JavaScript transparently into native applications
  to bridge the static and dynamic worlds together. 
  
-Package: libkf5krosscore4
+Package: libkf5krosscore5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -57,7 +57,7 @@ Description: Multi-language application scripting.
  JavaScript transparently into native applications
  to bridge the static and dynamic worlds together. 
  
-Package: libkf5krossui4
+Package: libkf5krossui5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
