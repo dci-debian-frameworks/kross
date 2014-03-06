@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.97.0 amd64
 libKF5KrossCore.so.5 libkf5krosscore5 #MINVER#
  _ZN5Kross10krossdebugERK7QString@Base 4.96.0
  _ZN5Kross11Interpreter11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -12,8 +12,8 @@ libKF5KrossCore.so.5 libkf5krosscore5 #MINVER#
  _ZN5Kross12krosswarningERK7QString@Base 4.96.0
  _ZN5Kross15InterpreterInfo11interpreterEv@Base 4.96.0
  _ZN5Kross15InterpreterInfo7optionsEv@Base 4.96.0
- _ZN5Kross15InterpreterInfoC1ERK7QStringPvS3_RK11QStringListRK4QMapIS1_PNS0_6OptionEE@Base 4.96.0
- _ZN5Kross15InterpreterInfoC2ERK7QStringPvS3_RK11QStringListRK4QMapIS1_PNS0_6OptionEE@Base 4.96.0
+ _ZN5Kross15InterpreterInfoC1ERK7QStringPFvvES3_RK11QStringListRK4QMapIS1_PNS0_6OptionEE@Base 4.97.0
+ _ZN5Kross15InterpreterInfoC2ERK7QStringPFvvES3_RK11QStringListRK4QMapIS1_PNS0_6OptionEE@Base 4.97.0
  _ZN5Kross15InterpreterInfoD1Ev@Base 4.96.0
  _ZN5Kross15InterpreterInfoD2Ev@Base 4.96.0
  _ZN5Kross16ActionCollection10setEnabledEb@Base 4.96.0
