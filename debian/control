@@ -3,43 +3,65 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev,
- libkf5widgetsaddons-dev (>= 4.99.0), libkf5itemviews-dev (>= 4.99.0),
- libkf5i18n-dev (>= 4.99.0), libkf5guiaddons-dev (>= 4.99.0),
- libkf5configwidgets-dev (>= 4.99.0), libkf5iconthemes-dev (>= 4.99.0), libkf5completion-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
- libkf5service-dev (>= 4.99.0), libkf5coreaddons-dev (>= 4.99.0),
- libkf5windowsystem-dev (>= 4.99.0), libkf5textwidgets-dev (>= 4.99.0),
- libkf5xmlgui-dev (>= 4.99.0), libkf5codecs-dev (>= 4.99.0),
- libkf5bookmarks-dev (>= 4.99.0), kdoctools-dev (>= 4.99.0),
- kf5-kio-dev (>= 4.99.0), libkf5auth-dev (>= 4.99.0),
- libkf5parts-dev (>= 4.99.0), xauth, xvfb,
- qtscript5-dev, qttools5-dev, libkf5kjs-dev (>= 4.99.0),
- libkf5config-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0),
- libkf5globalaccel-dev (>= 4.99.0), libkf5archive-dev (>= 4.99.0),
- libkf5jobwidgets-dev (>= 4.99.0), libkf5solid-dev (>= 4.99.0),
- libkf5notifications-dev (>= 4.99.0), libkf5attica-dev (>= 4.99.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               kdoctools-dev (>= 4.100.0),
+               kf5-kio-dev (>= 4.100.0),
+               libkf5archive-dev (>= 4.100.0),
+               libkf5attica-dev (>= 4.100.0),
+               libkf5auth-dev (>= 4.100.0),
+               libkf5bookmarks-dev (>= 4.100.0),
+               libkf5codecs-dev (>= 4.100.0),
+               libkf5completion-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5configwidgets-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5dbusaddons-dev (>= 4.100.0),
+               libkf5globalaccel-dev (>= 4.100.0),
+               libkf5guiaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5iconthemes-dev (>= 4.100.0),
+               libkf5itemviews-dev (>= 4.100.0),
+               libkf5jobwidgets-dev (>= 4.100.0),
+               libkf5kjs-dev (>= 4.100.0),
+               libkf5notifications-dev (>= 4.100.0),
+               libkf5parts-dev (>= 4.100.0),
+               libkf5service-dev (>= 4.100.0),
+               libkf5solid-dev (>= 4.100.0),
+               libkf5sonnet-dev (>= 4.100.0),
+               libkf5textwidgets-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
+               libkf5windowsystem-dev (>= 4.100.0),
+               libkf5xmlgui-dev (>= 4.100.0),
+               pkg-kde-tools,
+               qtbase5-dev,
+               qtscript5-dev,
+               qttools5-dev,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kross
 
 Package: kross-dev
 Section: libdevel
 Architecture: any
-Depends: kross (= ${binary:Version}), ${misc:Depends},
- libkf5i18n-dev,
- libkf5iconthemes-dev,
- kf5-kio-dev,
- libkf5parts-dev,
- libkf5widgetsaddons-dev,
- qtbase5-dev
+Depends: kf5-kio-dev,
+         kross (= ${binary:Version}),
+         libkf5i18n-dev,
+         libkf5iconthemes-dev,
+         libkf5parts-dev,
+         libkf5widgetsaddons-dev,
+         qtbase5-dev,
+         ${misc:Depends}
 Description: development files for kross
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
  JavaScript transparently into native applications
- to bridge the static and dynamic worlds together. 
+ to bridge the static and dynamic worlds together.
  .
  Contains development files for kross.
-
+ 
 Package: kross
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -62,17 +84,17 @@ Description: Multi-language application scripting.
  of scripting interpreters like Python, Ruby and
  JavaScript transparently into native applications
  to bridge the static and dynamic worlds together. 
- 
+
 Package: libkf5krossui5
 Architecture: any
-Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Multi-language application scripting.
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
  JavaScript transparently into native applications
- to bridge the static and dynamic worlds together. 
+ to bridge the static and dynamic worlds together.
+Multi-Arch: same
 
 Package: kross-dbg
 Priority: extra
@@ -83,6 +105,6 @@ Description: debug symbols for kross
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
  JavaScript transparently into native applications
- to bridge the static and dynamic worlds together. 
+ to bridge the static and dynamic worlds together.
  .
  Contains debug symbols for kross.

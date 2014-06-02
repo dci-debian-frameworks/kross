@@ -1,5 +1,5 @@
 usr/include/KF5/
+usr/lib/*/cmake/KF5Kross/
 usr/lib/*/libKF5KrossCore.so
 usr/lib/*/libKF5KrossUi.so
-usr/lib/*/cmake/KF5Kross/
 usr/lib/*/qt5/mkspecs/modules/*
