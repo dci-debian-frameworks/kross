@@ -25,7 +25,13 @@ Homepage: https://projects.kde.org/projects/frameworks/kross
 Package: kross-dev
 Section: libdevel
 Architecture: any
-Depends: kross (= ${binary:Version}), ${misc:Depends}
+Depends: kross (= ${binary:Version}), ${misc:Depends},
+ libkf5i18n-dev,
+ libkf5iconthemes-dev,
+ kf5-kio-dev,
+ libkf5parts-dev,
+ libkf5widgetsaddons-dev,
+ qtbase5-dev
 Description: development files for kross
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
