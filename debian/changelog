@@ -8,6 +8,8 @@ kross (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Update kross.install to contain localization
+  * Remove useless Pre-Depends fields used for multiarch compat in
+    releases older than trusty
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:48:48 +0100
 
