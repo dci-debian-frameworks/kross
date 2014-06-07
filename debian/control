@@ -46,7 +46,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kross
 Package: kross-dev
 Section: libdevel
 Architecture: any
-Depends: kf5-kio-dev,
+Depends: kio-dev,
          kross (= ${binary:Version}),
          libkf5i18n-dev,
          libkf5iconthemes-dev,
