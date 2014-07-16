@@ -7,6 +7,7 @@ kross (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix install file 
   * Update watch file to stable
   * Add Vcs
+  * Update copyright to match licensing to source 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:40:59 +0200
 
