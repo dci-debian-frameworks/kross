@@ -3,39 +3,21 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9.0.0),
+Build-Depends: cmake (>= 2.8.12),
+               debhelper (>= 9),
                extra-cmake-modules (>= 1.6.0),
                kdoctools-dev (>= 5.6.0),
                kio-dev (>= 5.6.0),
-               libkf5archive-dev (>= 5.6.0),
-               libkf5attica-dev (>= 5.6.0),
-               libkf5auth-dev (>= 5.6.0),
-               libkf5bookmarks-dev (>= 5.6.0),
-               libkf5codecs-dev (>= 5.6.0),
                libkf5completion-dev (>= 5.6.0),
-               libkf5config-dev (>= 5.6.0),
-               libkf5configwidgets-dev (>= 5.6.0),
                libkf5coreaddons-dev (>= 5.6.0),
-               libkf5dbusaddons-dev (>= 5.6.0),
-               libkf5globalaccel-dev (>= 5.6.0),
-               libkf5guiaddons-dev (>= 5.6.0),
                libkf5i18n-dev (>= 5.6.0),
                libkf5iconthemes-dev (>= 5.6.0),
-               libkf5itemviews-dev (>= 5.6.0),
-               libkf5jobwidgets-dev (>= 5.6.0),
-               libkf5kjs-dev (>= 5.6.0),
-               libkf5notifications-dev (>= 5.6.0),
                libkf5parts-dev (>= 5.6.0),
                libkf5service-dev (>= 5.6.0),
-               libkf5solid-dev (>= 5.6.0),
-               libkf5sonnet-dev (>= 5.6.0),
-               libkf5textwidgets-dev (>= 5.6.0),
                libkf5widgetsaddons-dev (>= 5.6.0),
-               libkf5windowsystem-dev (>= 5.6.0),
                libkf5xmlgui-dev (>= 5.6.0),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev,
+               qtbase5-dev (>= 5.2),
                qtscript5-dev,
                qttools5-dev,
                xauth,
@@ -50,11 +32,11 @@ Section: libdevel
 Architecture: any
 Depends: kio-dev,
          kross (= ${binary:Version}),
-         libkf5i18n-dev,
-         libkf5iconthemes-dev,
-         libkf5parts-dev,
-         libkf5widgetsaddons-dev,
-         qtbase5-dev,
+         libkf5i18n-dev (>= 5.6.0),
+         libkf5iconthemes-dev (>= 5.6.0),
+         libkf5parts-dev (>= 5.6.0),
+         libkf5widgetsaddons-dev (>= 5.6.0),
+         qtbase5-dev (>= 5.2),
          ${misc:Depends}
 Description: development files for kross
  Modular scripting framework that eases embedding
@@ -63,7 +45,7 @@ Description: development files for kross
  to bridge the static and dynamic worlds together.
  .
  Contains development files for kross.
- 
+
 Package: kross
 Architecture: any
 Depends: libkf5krosscore5 (= ${binary:Version}),
@@ -73,8 +55,8 @@ Description: Multi-language application scripting.
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
  JavaScript transparently into native applications
- to bridge the static and dynamic worlds together. 
- 
+ to bridge the static and dynamic worlds together.
+
 Package: libkf5krosscore5
 Architecture: any
 Multi-Arch: same
@@ -83,7 +65,7 @@ Description: Multi-language application scripting.
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
  JavaScript transparently into native applications
- to bridge the static and dynamic worlds together. 
+ to bridge the static and dynamic worlds together.
 
 Package: libkf5krossui5
 Architecture: any
