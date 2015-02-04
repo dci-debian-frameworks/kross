@@ -1,3 +1,6 @@
-usr/bin/*
-usr/lib/*/qt5/plugins
-usr/share/locale/
+usr/bin/kf5kross
+usr/lib/*/qt5/plugins/KrossModuleForms.so
+usr/lib/*/qt5/plugins/KrossModuleKdeTranslation.so
+usr/lib/*/qt5/plugins/krossqts.so
+usr/lib/*/qt5/plugins/script/krossqtsplugin.so
+usr/share/locale/*/*/kross5.mo
