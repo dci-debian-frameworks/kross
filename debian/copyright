@@ -3,16 +3,20 @@ Upstream-Name: kross
 Source: https://projects.kde.org/projects/frameworks/kross
 
 Files: *
-       debian/*
-Copyright: © 2004-2008 Sebastian Sauer <mail@dipe.org>
-           © 2008 Paulo Moura Guedes <moura@kdewebdev.org>
-           © 2008 Dag Andersen <danders@get2net.dk>
-           © 2005-2006 Cyrille Berger <cberger@cberger.net>
-           © 2005-2006 Erik L. Bunce <kde@bunce.us>
-           © 2005-2006 Ian Reinhart Geiser <geiseri@kde.org>
-           © 2005-2006 Matt Broadstone <mbroadst@gmail.com>
-           © 2005-2006 Richard J. Moore <rich@kde.org>
-           © 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Copyright: 2005-2006, Cyrille Berger <cberger@cberger.net>
+           2008, Dag Andersen <danders@get2net.dk>
+           2005-2006, Erik L. Bunce <kde@bunce.us>
+           2005-2006, Ian Reinhart Geiser <geiseri@kde.org>
+           2005-2006, Matt Broadstone <mbroadst@gmail.com>
+           2008, Paulo Moura Guedes <moura@kdewebdev.org>
+           2005-2006, Richard J. Moore <rich@kde.org>
+           2004-2008, Sebastian Sauer <mail@dipe.org>
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: LGPL-2+
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
