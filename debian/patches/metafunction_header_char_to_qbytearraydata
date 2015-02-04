@@ -1,13 +1,13 @@
 Index: kross/src/core/metafunction.h
 ===================================================================
---- kross.orig/src/core/metafunction.h	2015-02-04 09:51:51.549553468 +0100
-+++ kross/src/core/metafunction.h	2015-02-04 11:02:40.369862859 +0100
+--- kross.orig/src/core/metafunction.h	2015-02-04 18:30:57.339367387 +0100
++++ kross/src/core/metafunction.h	2015-02-04 18:31:30.130029517 +0100
 @@ -86,7 +86,7 @@
  
          // static metaobject
          staticMetaObject.d.superdata = &QObject::staticMetaObject;
 -        staticMetaObject.d.stringdata = m_stringData.data();
-+        staticMetaObject.d.stringdata = reinterpret_cast<const QByteArrayData *>(m_stringData.data());
++        staticMetaObject.d.stringdata = m_stringData.data_ptr();
          staticMetaObject.d.data = m_data;
          staticMetaObject.d.extradata = 0;
      }
