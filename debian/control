@@ -63,27 +63,28 @@ Description: development files for kross
  to bridge the static and dynamic worlds together.
  .
  Contains development files for kross.
- 
+
 Package: kross
 Architecture: any
 Depends: libkf5krosscore5 (= ${binary:Version}),
- libkf5krossui5 (= ${binary:Version}),
- ${shlibs:Depends}, ${misc:Depends}
+         libkf5krossui5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Multi-language application scripting.
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
  JavaScript transparently into native applications
- to bridge the static and dynamic worlds together. 
- 
+ to bridge the static and dynamic worlds together.
+
 Package: libkf5krosscore5
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Multi-language application scripting.
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
  JavaScript transparently into native applications
- to bridge the static and dynamic worlds together. 
+ to bridge the static and dynamic worlds together.
 
 Package: libkf5krossui5
 Architecture: any
