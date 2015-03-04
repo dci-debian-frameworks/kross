@@ -55,6 +55,7 @@ Depends: kio-dev,
          libkf5parts-dev,
          libkf5widgetsaddons-dev,
          qtbase5-dev,
+         qtscript5-dev,
          ${misc:Depends}
 Description: development files for kross
  Modular scripting framework that eases embedding
