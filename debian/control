@@ -40,7 +40,7 @@ Build-Depends: cmake,
                qttools5-dev,
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kross
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kross.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kross.git
