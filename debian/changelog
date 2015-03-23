@@ -2,6 +2,8 @@ kross (5.8.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.7.0).
   * New upstream release (5.8.0).
+  * Remove upstream applied patch:
+    metafunction_header_char_to_qbytearraydata
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:20:43 +0100
 
