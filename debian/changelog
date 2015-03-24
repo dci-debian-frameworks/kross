@@ -1,4 +1,4 @@
-kross (5.8.0-1~) UNRELEASED; urgency=medium
+kross (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.7.0).
   * New upstream release (5.8.0).
@@ -6,7 +6,7 @@ kross (5.8.0-1~) UNRELEASED; urgency=medium
     metafunction_header_char_to_qbytearraydata
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:20:43 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Mar 2015 18:13:19 +0100
 
 kross (5.6.0-1) experimental; urgency=medium
 
