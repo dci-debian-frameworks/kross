@@ -7,4 +7,5 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=kross-dbg
 
 override_dh_auto_test:
-	xvfb-run -a dh_auto_test
+	# Disable dh_auto_test at build time
+	:
