@@ -1,6 +1,7 @@
 kross (5.13.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.13.0).
+  * New upstream patch: upstream_disable_again_the_unittests
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 20:34:21 +0200
 
