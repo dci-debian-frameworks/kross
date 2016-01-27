@@ -1,8 +1,8 @@
-kross (5.18.0-1~) UNRELEASED; urgency=medium
+kross (5.18.0-1) experimental; urgency=medium
 
   * New upstream release (5.18.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 20:54:41 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:12 +0100
 
 kross (5.16.0-1) unstable; urgency=medium
 
