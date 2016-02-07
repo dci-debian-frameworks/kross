@@ -78,16 +78,3 @@ Description: Multi-language application scripting.
  JavaScript transparently into native applications
  to bridge the static and dynamic worlds together.
 Multi-Arch: same
-
-Package: kross-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: kross (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kross
- Modular scripting framework that eases embedding
- of scripting interpreters like Python, Ruby and
- JavaScript transparently into native applications
- to bridge the static and dynamic worlds together.
- .
- Contains debug symbols for kross.
