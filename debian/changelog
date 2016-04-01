@@ -1,6 +1,6 @@
-kross (5.20.0-1~8.gbp9d3676) UNRELEASED; urgency=medium
+kross (5.20.0-1~9.gbpe36435) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9d367602d32421ceef754dbfa4ca899a4c173f69 **
+  ** SNAPSHOT build @e364357e76aea121397b989b3739abccf056004b **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -13,8 +13,9 @@ kross (5.20.0-1~8.gbp9d3676) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:55:14 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:55:24 +0200
 
 kross (5.19.0-1) experimental; urgency=medium
 
