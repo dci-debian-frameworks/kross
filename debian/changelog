@@ -1,6 +1,6 @@
-kross (5.21.0-1~1.gbpbb7c24) UNRELEASED; urgency=medium
+kross (5.22.0-1~1.gbp5b752b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @bb7c24e48de7a9a86f7cad7603a62a65e80bc472 **
+  ** SNAPSHOT build @5b752bb9913f028169c443784d779add5ba3374b **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @e364357e76aea121397b989b3739abccf056004b **
@@ -21,10 +21,12 @@ kross (5.21.0-1~1.gbpbb7c24) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:55:17 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 14:55:11 +0200
 
 kross (5.19.0-1) experimental; urgency=medium
 
