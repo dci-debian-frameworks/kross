@@ -1,32 +1,17 @@
-kross (5.22.0-1~1.gbp5b752b) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @5b752bb9913f028169c443784d779add5ba3374b **
+kross (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @e364357e76aea121397b989b3739abccf056004b **
-
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * Update acc test script
-  * UNRELEASED
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
-  * Update build-deps and deps with the info from cmake
 
-  [ Maximiliano Curia ]
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 14:55:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 00:54:24 +0200
 
 kross (5.19.0-1) experimental; urgency=medium
 
