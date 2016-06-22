@@ -1,10 +1,9 @@
-kross (5.23.0-1~1.gbp98b443) UNRELEASED; urgency=medium
+kross (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @98b4436001efc47b7f3d36e9f0f45b4d756ad99d **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 20:55:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 23:51:32 +0200
 
 kross (5.22.0-1) unstable; urgency=medium
 
