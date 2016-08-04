@@ -1,2 +1,3 @@
-#installed by libkf5krosscore5.manpages
-./usr/share/man/man1/kf5kross.1
+# Manpages are gzipped, so they generate a false positive
+usr/share/man/man1/kf5kross.1
+usr/share/man/*/man1/kf5kross.1
