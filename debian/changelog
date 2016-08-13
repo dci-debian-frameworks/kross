@@ -1,17 +1,18 @@
-kross (5.24.0-1~2.gbpd2f52d) UNRELEASED; urgency=medium
+kross (5.25.0-1~1.gbp6c4246) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d2f52df6753c676e90ec21908d35bdbfbc067484 **
+  ** SNAPSHOT build @6c42468c3421fc55504652a6a3c0efb6923272f7 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @75a09f77af37211f4e5d1f058c875fdeb3248a31 **
 
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Install localized manpages.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 04 Aug 2016 14:02:33 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 14:55:11 +0200
 
 kross (5.23.0-1) unstable; urgency=medium
 
