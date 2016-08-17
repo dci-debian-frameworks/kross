@@ -1,6 +1,6 @@
-kross (5.25.0-1~1.gbp6c4246) UNRELEASED; urgency=medium
+kross (5.25.0-1~2.gbp82dc4e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6c42468c3421fc55504652a6a3c0efb6923272f7 **
+  ** SNAPSHOT build @82dc4ee4e06cac8ef8c8acc87d53aaf41155b74e **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @75a09f77af37211f4e5d1f058c875fdeb3248a31 **
@@ -11,8 +11,9 @@ kross (5.25.0-1~1.gbp6c4246) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Install localized manpages.
+  * Bump group breaks (5.25)
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 14:55:11 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:55:13 +0200
 
 kross (5.23.0-1) unstable; urgency=medium
 
