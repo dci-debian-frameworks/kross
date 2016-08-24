@@ -1,11 +1,6 @@
-kross (5.25.0-1~2.gbp82dc4e) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @82dc4ee4e06cac8ef8c8acc87d53aaf41155b74e **
+kross (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @75a09f77af37211f4e5d1f058c875fdeb3248a31 **
-
-  * Update build-deps and deps with the info from cmake
   * Update symbols files.
   * Update build-deps and deps with the info from cmake
 
@@ -13,7 +8,7 @@ kross (5.25.0-1~2.gbp82dc4e) UNRELEASED; urgency=medium
   * Install localized manpages.
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:55:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 24 Aug 2016 16:04:44 +0200
 
 kross (5.23.0-1) unstable; urgency=medium
 
