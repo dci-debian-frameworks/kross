@@ -46,7 +46,7 @@ Description: development files for kross
  to bridge the static and dynamic worlds together.
  .
  Contains development files for kross.
-Breaks: libkf5kdelibs4support-dev (<< 5.25)
+Breaks: libkf5kdelibs4support-dev (<< 5.26)
 
 Package: kross
 Architecture: any
