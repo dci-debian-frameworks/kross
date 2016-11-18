@@ -1,10 +1,13 @@
-kross (5.28.0-1~1.gbp9a0e39) UNRELEASED; urgency=medium
+kross (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @9a0e3936a678605c0b8391653b7cec4d151a5ac7 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 14:55:36 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:07:55 +0100
 
 kross (5.27.0-1) unstable; urgency=medium
 
