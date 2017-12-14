@@ -1,8 +1,32 @@
+kross (5.41.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Dec 2017 14:47:58 +0000
+
+kross (5.40.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 10 Nov 2017 13:00:32 +0000
+
+kross (5.39.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 15 Oct 2017 11:46:47 +0000
+
 kross (5.38.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.38.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Sep 2017 16:40:45 +0200
+
+kross (5.38.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Sep 2017 13:28:24 +0000
 
 kross (5.37.0-2) sid; urgency=medium
 
@@ -23,6 +47,12 @@ kross (5.37.0-1) experimental; urgency=medium
   * Release to experimental
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:44:07 +0200
+
+kross (5.37.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 11 Aug 2017 15:16:28 +0000
 
 kross (5.36.0-1) experimental; urgency=medium
 
@@ -45,6 +75,54 @@ kross (5.36.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:55 +0200
 
+kross (5.36.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:14:00 +0000
+
+kross (5.35.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 11 Jun 2017 20:37:34 +0000
+
+kross (5.34.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 14 May 2017 17:39:32 +0000
+
+kross (5.33.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 07 Apr 2017 16:24:55 +0000
+
+kross (5.32.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 12 Mar 2017 13:23:25 +0000
+
+kross (5.31.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 13 Feb 2017 14:39:54 +0000
+
+kross (5.30.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 16 Jan 2017 13:42:59 +0000
+
+kross (5.29.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:09:02 +0000
+
 kross (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
@@ -55,6 +133,12 @@ kross (5.28.0-1) unstable; urgency=medium
   * Bump group breaks (5.28)
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:07:55 +0100
+
+kross (5.28.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Nov 2016 09:45:55 +0000
 
 kross (5.27.0-1) unstable; urgency=medium
 
@@ -67,6 +151,12 @@ kross (5.27.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:10:29 +0200
 
+kross (5.27.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:35:59 +0000
+
 kross (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
@@ -76,6 +166,12 @@ kross (5.26.0-1) unstable; urgency=medium
   * Bump group breaks (5.26)
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:03:47 +0200
+
+kross (5.26.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:34:07 +0000
 
 kross (5.25.0-1) unstable; urgency=medium
 
@@ -89,12 +185,30 @@ kross (5.25.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 24 Aug 2016 16:04:44 +0200
 
+kross (5.25.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 13 Aug 2016 20:16:27 +0000
+
+kross (5.24.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:43:12 +0000
+
 kross (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 23:51:32 +0200
+
+kross (5.23.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:39:57 +0000
 
 kross (5.22.0-1) unstable; urgency=medium
 
@@ -111,6 +225,24 @@ kross (5.22.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 00:54:24 +0200
 
+kross (5.22.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:37:46 +0000
+
+kross (5.21.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Apr 2016 09:23:23 +0000
+
+kross (5.20.0-0neon) wily; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 11:08:00 +0000
+
 kross (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
@@ -122,6 +254,16 @@ kross (5.18.0-1) experimental; urgency=medium
   * New upstream release (5.18.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:12 +0100
+
+kross (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release Xenial
+
+  [ Philip Muškovac ]
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:07:16 +0100
 
 kross (5.16.0-1) unstable; urgency=medium
 
@@ -135,12 +277,34 @@ kross (5.15.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:15:44 +0200
 
+kross (5.15.0-0ubuntu2) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:46 +0100
+
+kross (5.15.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:55:13 +0100
+
 kross (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
   * Remove upstream patch: upstream_disable_again_the_unittests
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:47:27 +0200
+
+kross (5.14.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:25:55 +0100
 
 kross (5.13.0-1) unstable; urgency=medium
 
@@ -149,11 +313,25 @@ kross (5.13.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 22:02:08 +0200
 
+kross (5.13.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:29:41 +0200
+
 kross (5.12.0-1) unstable; urgency=medium
 
   * New upstream release (5.12.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:42:43 +0200
+
+kross (5.12.0-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+  * Fix merge.
+  * Vivid backport. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:08:29 +0200
 
 kross (5.11.0-1) unstable; urgency=medium
 
@@ -162,6 +340,16 @@ kross (5.11.0-1) unstable; urgency=medium
   * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 14:33:06 +0200
+
+kross (5.10.0-0ubuntu1) wily; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 21:11:08 +0200
 
 kross (5.9.0-1) experimental; urgency=medium
 
