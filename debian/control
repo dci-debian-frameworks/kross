@@ -6,7 +6,6 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.41.0~),
-               kio-dev (>= 5.26.0~),
                libkf5completion-dev (>= 5.41.0~),
                libkf5coreaddons-dev (>= 5.41.0~),
                libkf5doctools-dev (>= 5.41.0~),
@@ -43,10 +42,10 @@ Description: Multi-language application scripting.
 Package: kross-dev
 Section: libdevel
 Architecture: any
-Depends: kio-dev (>= 5.26.0~),
-         kross (= ${binary:Version}),
+Depends: kross (= ${binary:Version}),
          libkf5i18n-dev (>= 5.41.0~),
          libkf5iconthemes-dev (>= 5.41.0~),
+         libkf5kio-dev (>= 5.26.0~),
          libkf5parts-dev (>= 5.41.0~),
          libkf5widgetsaddons-dev (>= 5.41.0~),
          qtbase5-dev (>= 5.7.0~),
